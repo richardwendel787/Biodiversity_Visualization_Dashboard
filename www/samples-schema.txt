@@ -1,0 +1,16 @@
+samples.json schema
+
+names - int array[153]
+metadata - dict aray[153]
+	metadata.id - int
+	metadata.ethnicity - string
+	metadata.gender -string 
+	metadata.age - float 
+	metadata.location - str
+	metadata.bbtype - str
+	metadata.wfreq -sfloat
+samples - dict array[153]
+	samples.id - str
+	samples.otu-ids - int array[153]
+	samples.sample_values - int array[153]
+	samples.otu_labeles - string array[153]
